@@ -2,7 +2,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
-public class EX3TEST {
+public class EX3Test {
 
     @Test
     public void testEligibleToVote() {
