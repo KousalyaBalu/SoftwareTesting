@@ -1,4 +1,4 @@
-public class EX8{
+public class EX8 {
 
     public int calculateFactorial(int n) {
         if (n < 0) {
@@ -11,5 +11,12 @@ public class EX8{
         }
 
         return factorial;
+    }
+
+    public static void main(String[] args) {
+        // Example of using the calculateFactorial method
+        EX8 ex8 = new EX8();
+        int result = ex8.calculateFactorial(5);
+        System.out.println("Factorial of 5 is: " + result);
     }
 }
