@@ -1,9 +1,22 @@
-public class EX10{
-public static double calculateSquare(double number) {
+public class EX10 {
+
+    public static double calculateSquare(double number) {
         return number * number;
     }
 
     public static double calculateCube(double number) {
         return number * number * number;
+    }
+
+    public static void main(String[] args) {
+        double num = 3.0; // Replace with your desired number
+
+        // Calculate and display the square
+        double squareResult = calculateSquare(num);
+        System.out.println("Square of :" + squareResult);
+
+        // Calculate and display the cube
+        double cubeResult = calculateCube(num);
+        System.out.println("Cube of : " + cubeResult);
     }
 }
