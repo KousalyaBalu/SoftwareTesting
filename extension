@@ -1,0 +1,7 @@
+javac -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar EX1Test.java
+java -cp .;junit-4.13.2.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore EX1Test
+
+raguram13032000@gmail.com
+password: kousi1301
+
+https://github.com/KousalyaBalu/SoftwareTesting
